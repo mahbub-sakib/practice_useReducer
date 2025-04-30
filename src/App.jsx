@@ -8,6 +8,7 @@ import MultipleReducer from './components/MultipleReducer'
 import GetPost from './components/GetPost'
 import GetPostUsingReducer from './components/GetPostUsingReducer'
 import UserUseState from './components/userUseState'
+import UserUsingReducer from './components/UserUsingReducer'
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
       {/* <MultipleReducer></MultipleReducer> */}
       {/* <GetPost></GetPost> */}
       {/* <GetPostUsingReducer></GetPostUsingReducer> */}
-      <UserUseState></UserUseState>
+      {/* <UserUseState></UserUseState> */}
+      <UserUsingReducer></UserUsingReducer>
 
     </div>
   )
