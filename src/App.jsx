@@ -5,6 +5,7 @@ import './App.css'
 import Simple_counter from './components/Simple_counter'
 import CounterWithPayload from './components/CounterWithPayload'
 import MultipleReducer from './components/MultipleReducer'
+import GetPost from './components/GetPost'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <div>
       {/* <Simple_counter></Simple_counter> */}
       {/* <CounterWithPayload></CounterWithPayload> */}
-      <MultipleReducer></MultipleReducer>
+      {/* <MultipleReducer></MultipleReducer> */}
+      <GetPost></GetPost>
     </div>
   )
 }
