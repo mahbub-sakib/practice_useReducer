@@ -6,6 +6,7 @@ import Simple_counter from './components/Simple_counter'
 import CounterWithPayload from './components/CounterWithPayload'
 import MultipleReducer from './components/MultipleReducer'
 import GetPost from './components/GetPost'
+import GetPostUsingReducer from './components/GetPostUsingReducer'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       {/* <Simple_counter></Simple_counter> */}
       {/* <CounterWithPayload></CounterWithPayload> */}
       {/* <MultipleReducer></MultipleReducer> */}
-      <GetPost></GetPost>
+      {/* <GetPost></GetPost> */}
+      <GetPostUsingReducer></GetPostUsingReducer>
     </div>
   )
 }
